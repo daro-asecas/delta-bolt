@@ -1,0 +1,182 @@
+export const projects = [
+  {
+    id: 1,
+    title: "Hillside Residence",
+    slug: "hillside-residence",
+    category: "Residential",
+    year: 2023,
+    location: "Los Angeles, CA",
+    client: "Private Client",
+    size: "550 sq m",
+    services: "Architectural Design, Interior Design, Landscape Design",
+    description: "A contemporary family home nestled into a hillside with panoramic city views, balancing privacy with openness.",
+    featuredImage: "https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg",
+    images: [
+      "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg",
+      "https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg",
+      "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+      "https://images.pexels.com/photos/1643389/pexels-photo-1643389.jpeg",
+      "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg"
+    ]
+  },
+  {
+    id: 2,
+    title: "Luminous Office Building",
+    slug: "luminous-office",
+    category: "Commercial",
+    year: 2022,
+    location: "San Francisco, CA",
+    client: "Synapse Technologies",
+    size: "4,200 sq m",
+    services: "Architectural Design, Interior Design",
+    description: "A light-filled commercial space that prioritizes employee wellbeing and collaborative work environments.",
+    featuredImage: "https://images.pexels.com/photos/3747463/pexels-photo-3747463.jpeg",
+    images: [
+      "https://images.pexels.com/photos/3747463/pexels-photo-3747463.jpeg",
+      "https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg",
+      "https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg",
+      "https://images.pexels.com/photos/260689/pexels-photo-260689.jpeg",
+      "https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg"
+    ]
+  },
+  {
+    id: 3,
+    title: "Riverside Cultural Center",
+    slug: "riverside-cultural-center",
+    category: "Cultural",
+    year: 2021,
+    location: "Portland, OR",
+    client: "Portland Arts Foundation",
+    size: "3,800 sq m",
+    services: "Architectural Design, Urban Planning",
+    description: "A dynamic cultural institution designed to engage with the waterfront and serve as a catalyst for community gathering.",
+    featuredImage: "https://images.pexels.com/photos/256150/pexels-photo-256150.jpeg",
+    images: [
+      "https://images.pexels.com/photos/256150/pexels-photo-256150.jpeg",
+      "https://images.pexels.com/photos/1855214/pexels-photo-1855214.jpeg",
+      "https://images.pexels.com/photos/208001/pexels-photo-208001.jpeg",
+      "https://images.pexels.com/photos/19670/pexels-photo.jpg",
+      "https://images.pexels.com/photos/1266808/pexels-photo-1266808.jpeg"
+    ]
+  },
+  {
+    id: 4,
+    title: "Urban Loft Renovation",
+    slug: "urban-loft-renovation",
+    category: "Residential",
+    year: 2023,
+    location: "New York, NY",
+    client: "Private Client",
+    size: "225 sq m",
+    services: "Architectural Design, Interior Design",
+    description: "Transformation of a historic industrial loft into a contemporary living space that honors the building's heritage.",
+    featuredImage: "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg",
+    images: [
+      "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg",
+      "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
+      "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg",
+      "https://images.pexels.com/photos/7598344/pexels-photo-7598344.jpeg",
+      "https://images.pexels.com/photos/3778695/pexels-photo-3778695.jpeg"
+    ]
+  },
+  {
+    id: 5,
+    title: "Harmony Mixed-Use Development",
+    slug: "harmony-mixed-use",
+    category: "Mixed-Use",
+    year: 2022,
+    location: "Chicago, IL",
+    client: "Urban Developments Corp",
+    size: "12,500 sq m",
+    services: "Architectural Design, Urban Planning, Landscape Design",
+    description: "A sustainable mixed-use complex integrating residential, retail, and office spaces around a central public plaza.",
+    featuredImage: "https://images.pexels.com/photos/3768095/pexels-photo-3768095.jpeg",
+    images: [
+      "https://images.pexels.com/photos/3768095/pexels-photo-3768095.jpeg",
+      "https://images.pexels.com/photos/273671/pexels-photo-273671.jpeg",
+      "https://images.pexels.com/photos/1769356/pexels-photo-1769356.jpeg",
+      "https://images.pexels.com/photos/2239655/pexels-photo-2239655.jpeg",
+      "https://images.pexels.com/photos/2506990/pexels-photo-2506990.jpeg"
+    ]
+  },
+  {
+    id: 6,
+    title: "Waterfront Hotel",
+    slug: "waterfront-hotel",
+    category: "Commercial",
+    year: 2024,
+    location: "Miami, FL",
+    client: "Azure Hospitality Group",
+    size: "8,800 sq m",
+    services: "Architectural Design, Interior Design, Landscape Design",
+    description: "A luxury boutique hotel responding to its coastal context with sheltered outdoor spaces and panoramic views.",
+    featuredImage: "https://images.pexels.com/photos/2598638/pexels-photo-2598638.jpeg",
+    images: [
+      "https://images.pexels.com/photos/2598638/pexels-photo-2598638.jpeg",
+      "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg",
+      "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+      "https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg",
+      "https://images.pexels.com/photos/261327/pexels-photo-261327.jpeg"
+    ]
+  },
+  {
+    id: 7,
+    title: "Mountain Retreat",
+    slug: "mountain-retreat",
+    category: "Residential",
+    year: 2023,
+    location: "Aspen, CO",
+    client: "Private Client",
+    size: "420 sq m",
+    services: "Architectural Design, Interior Design",
+    description: "A contemporary alpine home using sustainable materials and responding to its dramatic natural surroundings.",
+    featuredImage: "https://images.pexels.com/photos/7031407/pexels-photo-7031407.jpeg",
+    images: [
+      "https://images.pexels.com/photos/7031407/pexels-photo-7031407.jpeg",
+      "https://images.pexels.com/photos/6585757/pexels-photo-6585757.jpeg",
+      "https://images.pexels.com/photos/6492407/pexels-photo-6492407.jpeg",
+      "https://images.pexels.com/photos/6896430/pexels-photo-6896430.jpeg",
+      "https://images.pexels.com/photos/6782567/pexels-photo-6782567.jpeg"
+    ]
+  },
+  {
+    id: 8,
+    title: "Contemporary Art Museum",
+    slug: "contemporary-art-museum",
+    category: "Cultural",
+    year: 2022,
+    location: "Austin, TX",
+    client: "Austin Arts Foundation",
+    size: "5,200 sq m",
+    services: "Architectural Design, Exhibition Design",
+    description: "A museum designed as a versatile canvas for contemporary art, with flexible exhibition spaces and strong connections to the urban context.",
+    featuredImage: "https://images.pexels.com/photos/6782675/pexels-photo-6782675.jpeg",
+    images: [
+      "https://images.pexels.com/photos/6782675/pexels-photo-6782675.jpeg",
+      "https://images.pexels.com/photos/2501336/pexels-photo-2501336.jpeg",
+      "https://images.pexels.com/photos/460736/pexels-photo-460736.jpeg",
+      "https://images.pexels.com/photos/3916023/pexels-photo-3916023.jpeg",
+      "https://images.pexels.com/photos/262367/pexels-photo-262367.jpeg"
+    ]
+  },
+  {
+    id: 9,
+    title: "Eco Village Community",
+    slug: "eco-village-community",
+    category: "Mixed-Use",
+    year: 2024,
+    location: "Seattle, WA",
+    client: "Green Future Developments",
+    size: "18,500 sq m",
+    services: "Architectural Design, Urban Planning, Landscape Design",
+    description: "A regenerative neighborhood development prioritizing community connections, local food production, and energy independence.",
+    featuredImage: "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg",
+    images: [
+      "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg",
+      "https://images.pexels.com/photos/2119713/pexels-photo-2119713.jpeg",
+      "https://images.pexels.com/photos/1121782/pexels-photo-1121782.jpeg",
+      "https://images.pexels.com/photos/1105754/pexels-photo-1105754.jpeg",
+      "https://images.pexels.com/photos/2360673/pexels-photo-2360673.jpeg"
+    ]
+  }
+];
