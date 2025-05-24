@@ -10,8 +10,7 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "eslint .",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "pnpm build && pnpx gh-pages -d build -t true"
   },
   "homepage": "https://daro-asecas.github.io/delta-bolt",
   "dependencies": {
